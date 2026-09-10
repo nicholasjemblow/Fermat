@@ -1,7 +1,7 @@
-# The Fidelius Protocol
+# Fermat
  **A Lattice-Based Confidential UTXO Architecture with Asynchronous Addressing and State Cut-Through**
 
-Fidelius is a post-quantum evolution of the Mimblewimble transaction topology (commitments, excesses, kernels, cut-through) built entirely over Module-SIS. 
+Fermat is a post-quantum evolution of the Mimblewimble transaction topology (commitments, excesses, kernels, cut-through) built entirely over Module-SIS. 
 
 This repository contains a complete, self-validating, executable Python specification of the protocol. **Nothing is stubbed.** From the ring arithmetic and exact balance arguments to a full implementation of ML-KEM-768 (FIPS 203), the entire cryptographic suite is tested and actively subjected to structural attack simulations upon execution.
 
